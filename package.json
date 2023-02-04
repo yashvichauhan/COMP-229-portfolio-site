@@ -1,9 +1,9 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "portfolio-sitev1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "nodemon ./server.js"
   },
   "engines": {
     "node": "^12.18.3",
@@ -21,14 +21,14 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
+  "description": "portfolio-sitev1",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
   },
-  "author": "Tom Tsiliopoulos",
+  "author": "Yashvi Chauhan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"

@@ -4,14 +4,18 @@
   
 
   <!-- Main Content -->
-  <main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to the <%= title %> page</h1>
-      
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Yashvi Chauhan</h1>
+          <h3 class="color-d"> Developer. Designer. Freelancer</h3>
+        </div>
+      </div>
     </div>
-  </main>
-  
-<%- include partials/bottom_nav.ejs %>  
+  </div><!-- End Hero Section --> 
 
 <%- include partials/footer.ejs %>
   

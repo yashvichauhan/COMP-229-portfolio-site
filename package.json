@@ -2,8 +2,10 @@
   "name": "portfolio-sitev1",
   "version": "0.0.1",
   "private": true,
+  "main": "functions/server.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "build": "netlify-lambda build express",
+    "start": "nodemon ./server-local.js"
   },
   "engines": {
     "node": "^12.18.3",
@@ -19,10 +21,11 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
-    "popper.js": "^1.16.1"
+    "netlify-lambda": "^2.0.15",
+    "popper.js": "^1.16.1",
+    "serverless-http": "^3.1.1"
   },
   "description": "portfolio-sitev1",
-  "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",

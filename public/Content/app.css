@@ -17,6 +17,10 @@ body {
     color: #1e1e1e;
   }
   
+  .container{
+    max-width: 1000px !important;
+  }
+  
   a {
     color: #1e1e1e;
     text-decoration: none;

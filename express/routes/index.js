@@ -35,4 +35,6 @@ router.get('*', function(req, res){
   res.render('error', { message: 'Error 404'});
 });
 
+router.use(cors());
+
 module.exports = router;

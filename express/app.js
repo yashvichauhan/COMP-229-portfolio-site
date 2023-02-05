@@ -5,11 +5,14 @@ const serverless = require('serverless-http');
 let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
+const bodyParser = require('body-parser');
 
 let indexRouter = require('./routes/index');
 
 let app = express();
 
+app.use(cors());
+app.use(bodyParser.json());
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); // express  -e

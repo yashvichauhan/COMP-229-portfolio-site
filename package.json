@@ -6,7 +6,7 @@
     "start": "nodemon ./server.js"
   },
   "engines": {
-    "node": "^14.18.2",
+    "node": "^12.18.3",
     "npm": "^6.0.0"
   },
   "dependencies": {

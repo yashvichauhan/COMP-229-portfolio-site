@@ -1,36 +1,34 @@
 {
   "name": "portfolio-sitev1",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "engines": {
-    "node": "^12.18.3",
-    "npm": "^6.0.0"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "^4.5.2",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jquery": "^3.5.1",
-    "morgan": "~1.9.1",
-    "popper.js": "^1.16.1"
-  },
-  "description": "portfolio-sitev1",
-  "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yashvichauhan/COMP-229-portfolio-site.git"
   },
-  "author": "Yashvi Chauhan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yashvichauhan/COMP-229-portfolio-site.git"
+    "url": "https://github.com/yashvichauhan/COMP-229-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/yashvichauhan/COMP-229-portfolio-site#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "ejs-lint": "^2.0.0",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jquery": "^3.6.3",
+    "morgan": "^1.10.0",
+    "popper.js": "^1.16.1"
   }
 }

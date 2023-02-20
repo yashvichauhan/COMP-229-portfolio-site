@@ -4,54 +4,11 @@
  * Module dependencies.
  */
 
-const app = require('./app');
-// var debug = require('debug')('week-4:server');
-// var http = require('http');
+const app = require('./server/config/app');
 
-/**
- * Get port from environment and store in Express.
-//  */
-
-// var port = normalizePort(process.env.PORT || '9000');
-// app.set('port', port);
-
-/**
- * Create HTTP server.
- */
-
-// var server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
 
 app.listen(9000, () => console.log('Local app listening on port 9000!'));
-// server.on('error', onError);
-// server.on('listening', onListening);
 
-// /**
-//  * Normalize a port into a number, string, or false.
-//  */
-
-// function normalizePort(val) {
-//   var port = parseInt(val, 10);
-
-//   if (isNaN(port)) {
-//     // named pipe
-//     return val;
-//   }
-
-//   if (port >= 0) {
-//     // port number
-//     return port;
-//   }
-
-//   return false;
-// }
-
-/**
- * Event listener for HTTP server "error" event.
- */
 
 function onError(error) {
   if (error.syscall !== 'listen') {

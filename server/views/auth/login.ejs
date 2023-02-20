@@ -1,0 +1,54 @@
+<%- include('../partials/header.ejs') %>
+
+<%- include('../partials/main_nav.ejs') %>
+  
+
+  <!-- Main Content -->
+  <main class="containerLogin">
+    <% if(messages.length > 0) {%>
+      <div class="alert alert-danger">
+          <%= messages %>
+      </div>
+    <% } %>
+    <br/>
+    <section id="contact" >
+      <div class="containerLogin">
+        <div class="row">
+          <div class="col-sm-12 height-set">
+            <div class="contact-mf">
+              <div id="login" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Login
+                      </h5>
+                    </div>
+                    <div>
+                      <form role="form" class="my-email-form" method="POST">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center mt-3">
+                            <button type="submit" class="button button-a button-big button-rouded">Login</button>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include('../partials/footer.ejs') %>

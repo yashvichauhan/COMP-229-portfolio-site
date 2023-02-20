@@ -20,6 +20,22 @@ body {
   .container{
     max-width: 1000px !important;
   }
+
+  .welcome-text{
+    color: #f2f2f2;
+  }
+
+  .containerLogin{
+    max-width: 650px !important;
+    margin: auto;
+  }
+
+  .mainAreaContainer{
+    min-height: 89vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
   
   a {
     color: #1e1e1e;
@@ -40,6 +56,12 @@ body {
   .color-a {
     text-decoration: none;
     color: #0b36a8;
+  }
+
+  .color-bg{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0b36a8;
   }
   
   .color-d {
@@ -992,6 +1014,10 @@ body {
     margin-top: 4rem;
   }
   
+  .height-set{
+    height: 79vh;
+  }
+
   @media (min-width: 767px) {
     .contact-mf .box-pl2 {
       margin-top: 3rem;

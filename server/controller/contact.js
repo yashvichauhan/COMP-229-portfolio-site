@@ -24,11 +24,6 @@ module.exports.displayContactList = (req, res, next) => {
     });
 }
 
-module.exports.displayAddPage = (req, res, next) => {
-    res.render('contact/add', {title: 'Add Contact', 
-    displayName: req.user ? req.user.displayName : ''})          
-}
-
 module.exports.displayEditPage = (req, res, next) => {
     let id = req.params.id;
     Contact.findById(id, (err, contactToEdit) => {

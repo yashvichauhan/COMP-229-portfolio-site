@@ -413,6 +413,10 @@ body {
   .button-rouded {
     border-radius: 5rem;
   }
+
+  .button-rounded a{
+
+  }
   
   .btn-lg {
     padding: 0.5rem 1rem;
@@ -1084,15 +1088,19 @@ body {
     margin-bottom: 0;
   }
   
-  .my-email-form button[type=submit] {
+  .my-email-form button {
     background: #0b36a8;
     border: 0;
     padding: 10px 24px;
     color: #fff;
     transition: 0.4s;
   }
+
+  .my-email-form button a{
+    color:#ffff;
+  }
   
-  .my-email-form button[type=submit]:hover {
+  .my-email-form button:hover {
     background: #3393ff;
   }
   

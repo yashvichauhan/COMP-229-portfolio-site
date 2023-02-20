@@ -1,7 +1,6 @@
 // require modules for the User Model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
-let bcrypt   = require('bcrypt-nodejs');
 
 let User = mongoose.Schema
 (
@@ -49,17 +48,6 @@ let User = mongoose.Schema
         collection: "users"
     }
 );
-
-// configure options for User Model
-// generating a hash
-// User.methods.generateHash = function(password) {
-//     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
-// };
-
-// // checking if password is valid
-// User.methods.validPassword = function(password) {
-//     return bcrypt.compareSync(password, this.password);
-// };
 
 
 let options = ({ missingPasswordError: 'Wrong / Missing Password'});
